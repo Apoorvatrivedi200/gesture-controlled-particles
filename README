@@ -1,0 +1,140 @@
+# 🖐️ Gesture Controlled Particles
+
+An interactive **3D particle visualization** that allows users to control and interact with particles using **real-time hand gestures** through the webcam.
+
+The project combines **Three.js** for 3D particle rendering with **MediaPipe Hands** for real-time hand tracking.
+
+## ✨ Features
+
+* 🖐️ Real-time hand gesture detection using the webcam
+* ✨ Interactive system containing **5,000 particles**
+* 🌐 3D visualization using Three.js
+* 🔵 Sphere particle formation
+* ❤️ Heart particle formation
+* 🪐 Saturn particle formation
+* 👆 Index-finger based particle interaction
+* 🔄 Gesture-based shape switching
+* 🎨 Dynamic particle color changes around the hand
+* 📱 Responsive 3D canvas
+
+## 🛠️ Technologies Used
+
+* **HTML5**
+* **CSS3**
+* **JavaScript**
+* **Three.js**
+* **MediaPipe Hands**
+* **WebGL**
+* **Computer Vision**
+
+## ⚙️ How It Works
+
+### 1. Three.js Particle System
+
+The application creates a Three.js scene with a perspective camera and WebGL renderer.
+
+The particle system contains **5,000 particles**, with each particle represented using position and color attributes.
+
+### 2. Hand Tracking
+
+MediaPipe Hands processes the webcam feed and detects hand landmarks in real time.
+
+The project uses the **index finger tip** to determine the hand's position on the screen.
+
+### 3. Particle Interaction
+
+When a hand is detected, particles near the hand are pushed away, creating an interactive **repulsion effect**.
+
+Particles close to the hand also change their color.
+
+### 4. Shape Switching
+
+The project supports three particle formations:
+
+* **Sphere**
+* **Heart**
+* **Saturn**
+
+The distance between the **thumb and pinky finger** is used as a gesture to switch between these shapes.
+
+## 🎮 Controls
+
+| Gesture                  | Action                                    |
+| ------------------------ | ----------------------------------------- |
+| Move index finger        | Interact with particles                   |
+| Move hand near particles | Particles move away                       |
+| Spread thumb and pinky   | Switch particle shape                     |
+| No hand detected         | Particles continue their normal animation |
+
+## 📂 Project Structure
+
+```text
+gesture-controlled-particles/
+│
+├── index.html
+├── README.md
+└── screenshots/
+    └── demo.png
+```
+
+## 🚀 How to Run
+
+### Option 1 — Open Locally
+
+1. Download or clone this repository.
+2. Open the project folder.
+3. Run `index.html` in a modern browser.
+4. Allow webcam access when prompted.
+5. Raise your hand in front of the camera.
+
+### Option 2 — VS Code
+
+You can run the project using **Live Server** in Visual Studio Code:
+
+1. Open the project in VS Code.
+2. Install the **Live Server** extension.
+3. Right-click `index.html`.
+4. Select **Open with Live Server**.
+5. Allow webcam permission.
+
+> **Note:** Webcam access may require the project to run through `localhost` or HTTPS rather than directly from a local file.
+
+## 📸 Demo
+
+```text
+screenshots/demo.png
+```
+## 🔗 Libraries
+
+This project uses:
+
+* [Three.js](https://threejs.org/)
+* [MediaPipe Hands](https://developers.google.com/mediapipe)
+
+## 📌 Project Highlights
+
+This project demonstrates the integration of:
+
+**Computer Vision + Hand Tracking + 3D Graphics + Real-Time Interaction**
+
+It provides an example of how webcam-based gesture recognition can be combined with a WebGL particle system to create an interactive browser experience.
+
+## 🔮 Future Improvements
+
+* Add more hand gestures and controls
+* Add additional 3D particle shapes
+* Improve gesture detection stability
+* Add particle explosion and attraction effects
+* Add customizable particle colors
+* Add more interactive animations
+* Improve mobile/device compatibility
+
+## 👩‍💻 Author
+
+**Apoorva Trivedi**
+
+Computer Science & Engineering Student
+
+---
+
+⭐ If you find this project interesting, consider giving the repository a star!
