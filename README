@@ -1,5 +1,7 @@
 # 🖐️ Gesture Controlled Particles
 
+🚀 [Live Demo](https://apoorvatrivedi200.github.io/gesture-controlled-particles/)
+
 An interactive **3D particle visualization** that allows users to control and interact with particles using **real-time hand gestures** through the webcam.
 
 The project combines **Three.js** for 3D particle rendering with **MediaPipe Hands** for real-time hand tracking.
